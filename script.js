@@ -11,7 +11,7 @@ PossibleNum.addEventListener("blur", function () {
 // Button click logic
 Button.onclick = function () {
     if (isNaN(PossibleNumVal) || PossibleNumVal <= 0) {
-        alert("Rayan Qusai Chalaby 1984 Colonial Dr please enter a valid number😡");
+        alert("Please enter a valid number!");
         return;
     }
 
