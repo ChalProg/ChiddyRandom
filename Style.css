@@ -1,0 +1,63 @@
+#Title {
+    font-size: 90px;
+    font-style: bold;
+    position: absolute;            
+    top: 50%;                       
+    left: 50%;                      
+    transform: translate(-122.5%, -270%);
+    width: 200px;
+    height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #e4c1c1;
+    transition: color 0.5s ease;
+    cursor: default;
+    display: inline;
+}
+#Title1 {
+    font-size: 20px;
+    font-style: bold;
+    position: absolute;            
+    top: 50%;                       
+    left: 50%;                      
+    transform: translate(-50%, 50%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #e4c1c1;
+    transition: color 0.5s ease;
+    cursor: default;
+    display: inline;
+}
+#Title1:hover {
+    color: #a0a0a0;
+}
+#ProbButton {
+    position: absolute;            
+    top: 50%;                       
+    left: 50%;                      
+    transform: translate(-50%, -90%);
+    width: 200px;
+    height: 100px;
+    background-color: #e4c1c1;
+    font-size: 25px;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#ProbButton:hover {
+    background-color: #f0f0f0;
+}
+#Title:hover {
+    color: #a0a0a0;
+}
+#Inp {
+    position: absolute;            
+    top: 50%;                       
+    left: 50%;                      
+    transform: translate(-50%, 100%);
+    border-width: 2px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
