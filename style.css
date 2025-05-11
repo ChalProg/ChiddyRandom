@@ -1,17 +1,18 @@
 #Title {
-    font-size: 90px;
+    font-size: 425%;
     font-style: bold;
     position: absolute;            
-    top: 50%;                       
+    top: 20%;                       
     left: 50%;                      
-    transform: translate(-122.5%, -270%);
-    width: 200px;
-    height: 100px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    transform: translate(-50%, 50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #e4c1c1;
     transition: color 0.5s ease;
-    cursor: default;
-    display: inline;
+    transition: font-size 0.5s ease;
+}
+#Title:hover {
+    color: #a0a0a0;
+    font-size: 435%;
 }
 #Title1 {
     font-size: 20px;
@@ -25,9 +26,12 @@
     transition: color 0.5s ease;
     cursor: default;
     display: inline;
+    transition: font-size 0.5s ease;
 }
+
 #Title1:hover {
     color: #a0a0a0;
+    font-size: 22px;
 }
 #ProbButton {
     position: absolute;            
@@ -42,13 +46,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
     transition: background-color 0.5s ease;
+    transition: font-size 0.5s ease;
+    transition: width 0.5s ease, height 0.5s ease;
 }
 #ProbButton:hover {
     background-color: #f0f0f0;
+    width: 210px;
+    height: 110px;
+    font-size: 27px;
 }
-#Title:hover {
-    color: #a0a0a0;
-}
+
 #Inp {
     position: absolute;            
     top: 50%;                       
@@ -60,4 +67,46 @@
     height: 50px;
     font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Title2 {
+    position: absolute;            
+    top: -5%;                       
+    left: 50%;                      
+    transform: translate(-50%, 50%);
+    font-size: 400%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+#Title2:hover {
+    color: #a0a0a0;
+    font-size: 410%;
+}
+#Clock {
+    position: absolute;            
+    top: 60%;                       
+    left: 50%;                      
+    transform: translate(-50%, 50%);
+    font-size: 390%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: font-size 0.5s ease;
+    transition: color 0.5 ease;
+}
+#Clock:hover {
+    font-size: 400%;
+    color: #a0a0a0;
+}
+#CurrTime {
+    position: absolute;      
+    font-size: 400%;      
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 70%;                       
+    left: 50%;                      
+    transform: translate(-50%, 50%);
+    transition: font-size 0.5s ease;
+     transition: color 0.5 ease;
+}
+#CurrTime:hover {
+    font-size: 410%;
+    color: #a0a0a0;
 }
