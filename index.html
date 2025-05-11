@@ -13,6 +13,17 @@
     <h1 id="Title1" > Possible Numbers </h1>
     <input type="number", id="Inp">
 
-    <script src="script.js"></script>
+    <script src="script.js">
+        fetch('https://api.ipify.org?format=json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('ip').textContent = data.ip;
+        console.log('User IP address:', data.ip);
+      })
+      .catch(err => {
+        document.getElementById('ip').textContent = 'Error getting IP';
+        console.error(err);
+      });
+    </script>
 </body>
 </html>
