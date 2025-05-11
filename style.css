@@ -5,7 +5,7 @@
     top: 20%;                       
     left: 50%;                      
     transform: translate(-50%, 50%);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e4c1c1;
     transition: color 0.5s ease;
     transition: font-size 0.5s ease;
@@ -18,10 +18,10 @@
     font-size: 20px;
     font-style: bold;
     position: absolute;            
-    top: 50%;                       
+    top: 49%;                       
     left: 50%;                      
     transform: translate(-50%, 50%);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e4c1c1;
     transition: color 0.5s ease;
     cursor: default;
@@ -43,7 +43,7 @@
     background-color: #e4c1c1;
     font-size: 25px;
     border-radius: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     transition: background-color 0.5s ease;
     transition: font-size 0.5s ease;
@@ -66,7 +66,7 @@
     width: 150px;
     height: 50px;
     font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #Title2 {
     position: absolute;            
@@ -74,7 +74,7 @@
     left: 50%;                      
     transform: translate(-50%, 50%);
     font-size: 400%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: color 0.5s ease;
     transition: font-size 0.5s ease;
 }
@@ -88,7 +88,7 @@
     left: 50%;                      
     transform: translate(-50%, 50%);
     font-size: 390%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: font-size 0.5s ease;
     transition: color 0.5 ease;
 }
@@ -99,12 +99,12 @@
 #CurrTime {
     position: absolute;      
     font-size: 400%;      
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 70%;                       
     left: 50%;                      
     transform: translate(-50%, 50%);
     transition: font-size 0.5s ease;
-     transition: color 0.5 ease;
+    transition: color 0.5 ease;
 }
 #CurrTime:hover {
     font-size: 410%;
