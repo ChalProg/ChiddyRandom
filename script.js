@@ -2,15 +2,7 @@ const Button = document.getElementById("ProbButton");
 const PossibleNum = document.getElementById("Inp");
 let PossibleNumVal = 0;
 
-fetch('https://api.ipify.org?format=json')
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById('ip').textContent = data.ip;
-        console.log('User IP address:', data.ip);
-      })
-      .catch(err => {
-        document.getElementById('ip').textContent = 'Error getting IP';
-        console.error(err);
+
 
 // Add blur event correctly
 PossibleNum.addEventListener("blur", function () {
