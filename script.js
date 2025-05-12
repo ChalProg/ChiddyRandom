@@ -261,7 +261,7 @@ SubName.onclick = function () {
 
             let countryName = countryCodeMap[countries[0].country_id];
             let ProbabiltyPercent = Math.round(countries[0].probability * 100);
-            alert(`We are sure this name is from ${countryName}, with a chance of ${ProbabiltyPercent}%.`)
+            alert(`We are sure this name is from ${countryName}.`)
             
         })
         .catch(function(error) {
