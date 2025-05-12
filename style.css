@@ -110,3 +110,61 @@
     font-size: 410%;
     color: #a0a0a0;
 }
+#EthnicityTitle {
+    position: absolute;      
+    font-size: 300%;      
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 90%;                       
+    left: 50%;                      
+    transform: translate(-50%, 50%);
+    transition: font-size 0.5s ease;
+    transition: color 0.5 ease;
+}
+#EthnicityTitle:hover {
+    font-size: 310%;
+    color: #a0a0a0;
+}
+#Inp1 {
+    position: absolute;            
+    top: 100%;                       
+    left: 50%;                      
+    transform: translate(-50%, 100%);
+    border-width: 2px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Nothing {
+    font-size: 425%;
+    font-style: bold;
+    position: absolute;            
+    top: 150%;                       
+    left: 50%;                      
+    transform: translate(-50%, 50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+#EthnicityButton {
+    position: absolute;            
+    top: 125%;                       
+    left: 50%;                      
+    transform: translate(-50%, -90%);
+    width: 200px;
+    height: 100px;
+    background-color: #e4c1c1;
+    font-size: 25px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    transition: font-size 0.5s ease;
+    transition: width 0.5s ease, height 0.5s ease;
+}
+#EthnicityButton:hover {
+    background-color: #f0f0f0;
+    width: 210px;
+    height: 110px;
+    font-size: 27px;
+}
