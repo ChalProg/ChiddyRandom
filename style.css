@@ -1,181 +1,36 @@
 #Title {
-    font-size: 425%;
-    font-style: bold;
-    position: absolute;            
-    top: 20%;                       
-    left: 50%;                      
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -850%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#DogPic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px, solid #000;
+}
+#DogButton {
+    position: absolute;
+    top: 90%;
+    left: 50%;
     transform: translate(-50%, 50%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #e4c1c1;
-    margin: auto;
-    transition: color 0.5s ease;
-    transition: font-size 0.5s ease;
-}
-#Title:hover {
-    color: #a0a0a0;
-    font-size: 435%;
-}
-#Title1 {
-    font-size: 20px;
-    font-style: bold;
-    position: absolute;            
-    top: 49%;                       
-    left: 50%;                      
-    margin: auto;
-    transform: translate(-50%, 50%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #e4c1c1;
-    transition: color 0.5s ease;
-    cursor: default;
-    display: inline;
-    transition: font-size 0.5s ease;
-}
-
-#Title1:hover {
-    color: #a0a0a0;
-    font-size: 22px;
-}
-#ProbButton {
-    position: absolute;            
-    top: 50%;                       
-    margin: auto;
-    left: 50%;                      
-    transform: translate(-50%, -90%);
-    width: 200px;
-    height: 100px;
-    background-color: #e4c1c1;
-    font-size: 25px;
-    border-radius: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-    transition: font-size 0.5s ease;
-    transition: width 0.5s ease, height 0.5s ease;
-}
-#ProbButton:hover {
-    background-color: #f0f0f0;
-    width: 210px;
-    height: 110px;
-    font-size: 27px;
-}
-
-#Inp {
-    position: absolute;            
-    top: 50%;                       
-    left: 50%;                      
-    margin: auto;
-    transform: translate(-50%, 100%);
-    border-width: 2px;
+    width: 20%;
+    height: 5%;
     border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color .5s ease;
+    transition: width .5s ease, height .5s ease;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#Title2 {
-    position: absolute;            
-    top: -5%;                       
-    left: 50%;                      
-    margin: auto;
-    transform: translate(-50%, 50%);
-    font-size: 400%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: color 0.5s ease;
-    transition: font-size 0.5s ease;
+#DogButton:hover {
+    background-color: rgb(179, 179, 179);
+    width: 21%;
+    height: 6%;
 }
-#Title2:hover {
-    color: #a0a0a0;
-    font-size: 410%;
-}
-#Clock {
-    position: absolute;            
-    top: 60%;                       
-    left: 50%;                      
-    margin: auto;
-    transform: translate(-50%, 50%);
-    font-size: 390%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: font-size 0.5s ease;
-    transition: color 0.5 ease;
-}
-#Clock:hover {
-    font-size: 400%;
-    color: #a0a0a0;
-}
-#CurrTime {
-    position: absolute;      
-    font-size: 400%;      
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: 70%;                       
-    margin: auto;
-    left: 50%;                      
-    transform: translate(-50%, 50%);
-    transition: font-size 0.5s ease;
-    transition: color 0.5 ease;
-}
-#CurrTime:hover {
-    font-size: 410%;
-    color: #a0a0a0;
-}
-#EthnicityTitle {
-    position: absolute;      
-    font-size: 300%;      
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: 90%;                       
-    left: 50%;                      
-    margin: auto;
-    transform: translate(-50%, 50%);
-    transition: font-size 0.5s ease;
-    transition: color 0.5 ease;
-}
-#EthnicityTitle:hover {
-    font-size: 310%;
-    color: #a0a0a0;
-}
-#Inp1 {
-    position: absolute;            
-    top: 100%;                       
-    left: 50%;                      
-    margin: auto;
-    transform: translate(-50%, 100%);
-    border-width: 2px;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#Nothing {
-    font-size: 425%;
-    font-style: bold;
-    margin: auto;
-    position: absolute;            
-    top: 150%;                       
-    left: 50%;                      
-    transform: translate(-50%, 50%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-}
-#EthnicityButton {
-    position: absolute;            
-    top: 125%;                       
-    left: 50%;                      
-    margin: auto;
-    transform: translate(-50%, -90%);
-    width: 200px;
-    height: 100px;
-    background-color: #e4c1c1;
-    font-size: 25px;
-    border-radius: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-    transition: font-size 0.5s ease;
-    transition: width 0.5s ease, height 0.5s ease;
-}
-#EthnicityButton:hover {
-    background-color: #f0f0f0;
-    width: 210px;
-    height: 110px;
-    font-size: 27px;
+#DogButton:active {
+    width: 19%;
+    height: 4%;
 }
